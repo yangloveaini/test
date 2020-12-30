@@ -29,7 +29,7 @@ void BubbleSort(int arr[], int n)
 
 int main()
 {
-	int s[10] = { 8,1,9,7,2,4,5,6,10,3 };
+	int s[12] = { 8,1,9,7,2,4,5,6,10,3 ,5 ,5};
 	cout << "³õÊ¼ÐòÁÐ£º";
 	print(s, 10);
 	BubbleSort(s, 10);
