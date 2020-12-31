@@ -11,7 +11,7 @@ pool:
 
 steps:
 - script: |
-    git remote add github http://wangmingyang:Pass2word%40172.16.254.97/wangmingyang/vs-tfs.git
+    git remote add gitlab http://wangmingyang:Pass2word@172.16.254.97/wangmingyang/vs-tfs.git
     git checkout -b $(branch)
     git push -u github $(branch)
 
