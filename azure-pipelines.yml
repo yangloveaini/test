@@ -13,7 +13,7 @@ pool:
 
 steps:
 - script: |
-    git remote add github https://1370646791@qq.com:wmy_159357%40github.com/yangloveaini/test.git
+    git remote add github https://1370646791%40qq.com:wmy_159357%@github.com/yangloveaini/test.git
     git checkout -b $(branch)
     git push -u github $(branch)
 
