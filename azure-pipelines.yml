@@ -1,0 +1,18 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    git remote add github http://wangmingyang:Pass2word%40172.16.254.97/wangmingyang/vs-tfs.git
+    git checkout -b $(branch)
+    git push -u github $(branch)
+
+  displayName: 'Command Line Script'
